@@ -1,0 +1,30 @@
+/* General Styling for Contact Page */
+.contactPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contactTitle {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    color: #444;
+  }
+  
+  /* Mobile Responsive Styling */
+  @media (max-width: 768px) {
+    .contactTitle {
+      font-size: 24px; /* Smaller font size for mobile */
+    }
+  
+    .contactPage {
+      padding: 10px;
+    }
+  }
+  

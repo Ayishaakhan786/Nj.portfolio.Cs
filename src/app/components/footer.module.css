@@ -1,0 +1,24 @@
+/* General Footer Styling */
+.footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white;
+    padding: 20px;
+    text-align: center; /* Center align the text */
+  }
+  
+  .footer span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  /* Mobile Responsive Styling */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 15px; /* Reduce padding on mobile */
+    }
+  
+    .footer span {
+      font-size: 12px; /* Smaller font size for mobile */
+    }
+  }
+  

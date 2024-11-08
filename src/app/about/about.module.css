@@ -1,0 +1,29 @@
+/* General Styling for About Page */
+.aboutPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .aboutTitle {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  /* Mobile Responsive Styling */
+  @media (max-width: 768px) {
+    .aboutTitle {
+      font-size: 24px; /* Smaller font for mobile */
+    }
+  
+    .aboutPage {
+      padding: 10px;
+    }
+  }
+  
